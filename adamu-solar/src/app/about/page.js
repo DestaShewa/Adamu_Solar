@@ -1,5 +1,7 @@
 import AboutPageContent from "@/components/AboutPageContent";
 
+export const instant = false;
+
 export const metadata = {
   title: "About Adamu Solar | Solar Solutions in Arba Minch",
   description:

@@ -1,5 +1,6 @@
-
 import ServicesPageContent from "@/components/ServicesPageContent";
+
+export const instant = false;
 
 export const metadata = {
   title: "Solar Services | Adamu Solar",

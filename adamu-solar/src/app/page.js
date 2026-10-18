@@ -1,4 +1,7 @@
+
 import HomePageContent from "@/components/HomePageContent";
+
+export const instant = false;
 
 export default async function HomePage({ searchParams }) {
   const params = await searchParams;
