@@ -61,7 +61,59 @@ const projectsPageContent = {
 
 // Add verified project photos here when they are ready.
 // Example image path: /images/projects/home-solar-installation.jpg
-const projects = [];
+const projects = [
+  {
+    id: 1,
+    image: "/images/projects/home-solar.jpg",
+    alt: {
+      en: "Solar installation at a home",
+      am: "በመኖሪያ ቤት የተገጠመ የፀሐይ ኃይል ስርዓት",
+    },
+    title: {
+      en: "Home Solar Installation",
+      am: "የቤት የፀሐይ ኃይል ተከላ",
+    },
+    description: {
+      en: "A real solar installation completed by Adamu Solar.",
+      am: "በአዳሙ ሶላር የተከናወነ እውነተኛ የፀሐይ ኃይል ተከላ።",
+    },
+    location: "Arba Minch",
+  },
+  {
+    id: 2,
+    image: "/images/projects/church-solar.jpg",
+    alt: {
+      en: "Solar installation at a church",
+      am: "በቤተ ክርስቲያን የተገጠመ የፀሐይ ኃይል ስርዓት",
+    },
+    title: {
+      en: "Church Solar Project",
+      am: "የቤተ ክርስቲያን የፀሐይ ኃይል ፕሮጀክት",
+    },
+    description: {
+      en: "A solar project photographed for Adamu Solar's portfolio.",
+      am: "ለአዳሙ ሶላር ፖርትፎሊዮ የተነሳ የፀሐይ ኃይል ፕሮጀክት።",
+    },
+    location: "Arba Minch",
+  },
+  {
+    id: 3,
+    image: "/images/projects/business-solar.jpg",
+    alt: {
+      en: "Solar equipment at a business",
+      am: "በንግድ ቦታ የሚገኝ የፀሐይ ኃይል መሣሪያ",
+    },
+    title: {
+      en: "Business Solar Solution",
+      am: "የንግድ ቦታ የፀሐይ ኃይል መፍትሄ",
+    },
+    description: {
+      en: "A real project photo showcasing solar equipment.",
+      am: "የፀሐይ ኃይል መሣሪያን የሚያሳይ እውነተኛ የፕሮጀክት ፎቶ።",
+    },
+    location: "Arba Minch",
+  },
+];
 
 export default function ProjectsPageContent({ initialLang = "en" }) {
   const [lang, setLang] = useState(initialLang);
