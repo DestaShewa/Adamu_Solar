@@ -45,7 +45,7 @@ export const content = {
     projectsTitle: "Work that makes a difference",
     projectsText:
       "Real projects can be featured here once photos and project details are approved.",
-    projectPlaceholder: "Add an approved project photo",
+    projectPlaceholder: "",
     projectNames: ["Solar Installation Project", "Solar System Project"],
     aboutLabel: "ABOUT ADAMU",
     aboutTitle: "A practical approach to solar energy",
